@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>HTML Calculator</title>
+</head>
+<form name="calc" align="center" >
+<br><br><br>
+<input type="button" value="1" onClick="document.calc.ans.value+='1'">
+<input type="button" value="2" onClick="document.calc.ans.value+='2'">
+<input type="button" value="3" onClick="document.calc.ans.value+='3'">
+<input type="button" value="+" onClick="document.calc.ans.value+='+'">
+<br>
+<input type="button" value="4" onClick="document.calc.ans.value+='4'">
+<input type="button" value="5" onClick="document.calc.ans.value+='5'">
+<input type="button" value="6" onClick="document.calc.ans.value+='6'">
+<input type="button" value="-" onClick="document.calc.ans.value+='-'">
+<br>
+<input type="button" value="7" onClick="document.calc.ans.value+='7'">
+<input type="button" value="8" onClick="document.calc.ans.value+='8'">
+<input type="button" value="9" onClick="document.calc.ans.value+='9'">
+<input type="button" value="*" onClick="document.calc.ans.value+='*'">
+<input type="button" value="/" onClick="document.calc.ans.value+='/'">
+<br>
+<input type="button" value="0" onClick="document.calc.ans.value+='0'">&nbsp
+<input type="reset" value="Reset">&nbsp
+<input type="button" value="=" onClick="document.calc.ans.value=eval(document.calc.ans.value)">
+<br>The Answer is <input type="textfield" name="ans" value="">
+</form>
+</body>
+</html>
